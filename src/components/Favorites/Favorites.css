@@ -1,0 +1,71 @@
+  .favorites {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: var(--card-background);
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 8px 16px rgba(0, 255, 136, 0.3);
+  }
+  
+  .favorites h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: var(--primary-color);
+  }
+  
+  .favorites ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .favorites li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(0, 255, 136, 0.4);
+  }
+  
+  .favorite-movie {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .favorite-movie img {
+    width: 100px;
+    border-radius: 10px;
+  }
+
+  .favorite-movie-details {
+    flex: 1;
+    flex-direction: column;
+  }
+
+  .favorite-movie-details h3 {
+    margin: 0;
+    color: #ffffff; 
+  }
+
+  .favorite-movie-details p {
+    margin: 5px 0;
+    color: #cccccc; 
+  }
+
+  .favorites button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .favorites button:hover {
+    background-color: #cc0000;
+  }
+
